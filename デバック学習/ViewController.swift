@@ -13,7 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+        
+        var number: Int! = 5
+        number = nil
+
+        // 数字を2倍してprintで出力する
+        let twice = number * 2
+        print(twice)    }
 
 
 }
